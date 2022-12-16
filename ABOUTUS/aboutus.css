@@ -1,0 +1,594 @@
+@font-face {
+  font-family: "Buffalo";
+  src: url(../FONT/BuffaloInline2Grunge.ttf);
+}
+@font-face {
+  font-family: "Western";
+  src: url(../FONT/WesternBangBang-Regular.ttf);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../FONT/Helvetica.ttf);
+}
+* {
+  margin: 0;
+}
+
+body {
+  z-index: 0;
+  width: 100%;
+  background-image: url(../IMG/Background.png);
+  background-repeat: repeat;
+  background-blend-mode: darken;
+  background-color: rgba(32, 23, 9, 0.6);
+  background-size: cover;
+}
+body #logo {
+  text-align: center;
+  background-image: url(../IMG/Background.png);
+  background-repeat: repeat;
+  background-blend-mode: darken;
+  background-color: rgba(32, 23, 9, 0.6);
+  background-size: cover;
+  background-position-y: 55%;
+  width: 100%;
+  padding-bottom: 0.5%;
+}
+body .linetop {
+  z-index: 3;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  margin-top: -0.5%;
+  box-shadow: 0px 2px 6px #ceb38d;
+  width: 100%;
+}
+body nav {
+  position: relative;
+  margin-top: -0.5%;
+  height: 80px;
+  margin-left: 0%;
+  width: 100%;
+  z-index: 2;
+}
+body nav ul {
+  display: flex;
+  justify-content: center;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  padding-top: 1%;
+  z-index: 3;
+  width: 100%;
+  position: relative;
+}
+body nav ul .navbarimg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: -0.5%;
+  pointer-events: none;
+  height: 80px;
+}
+body nav ul .navbarimg img {
+  height: 80px;
+}
+body nav ul li {
+  list-style-type: none;
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-shadow: #29221C 2px 1px;
+  background-color: rgba(32, 23, 9, 0.5);
+  -webkit-backdrop-filter: blur(1.5px);
+          backdrop-filter: blur(1.5px);
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px #000000;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+  z-index: 10;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: #e07837;
+  font-family: "Western", sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px black;
+  transition: 0.5s;
+}
+body nav ul li a:hover {
+  display: block;
+  color: #f2f2f2;
+}
+body nav ul ul {
+  display: none;
+  position: absolute;
+  padding-top: 3%;
+  background-color: rgba(32, 23, 9, 0.5);
+  width: 13%;
+  height: auto;
+  border-radius: 30px;
+  z-index: -1;
+  text-align: start;
+  margin: 0;
+  left: 28.5%;
+  margin-top: 0%;
+  box-shadow: 0 2px 5px 4px #e07837;
+}
+body nav ul ul li {
+  width: 100%;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  box-shadow: 0px 0px 0px;
+  background-color: none;
+  padding-bottom: 1%;
+  z-index: 10;
+}
+body nav ul ul li:hover {
+  color: #f2f2f2;
+}
+body nav ul ul li a {
+  text-decoration: none;
+  color: #e07837;
+  font-size: 20px;
+  font-family: "Helvetica";
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  z-index: 2;
+}
+body nav ul .show:hover + .hide, body nav ul .hide:hover {
+  display: block;
+}
+body main {
+  margin-top: -5%;
+  padding-bottom: 1%;
+  width: 100%;
+  position: relative;
+  display: block;
+  z-index: 0;
+}
+body main .text {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  background-color: rgba(24, 19, 9, 0.5);
+  margin-left: 10%;
+  border: 2px solid rgb(200, 113, 69);
+  border-bottom: none;
+  box-shadow: 2px 8px 4px rgb(148, 103, 77);
+  box-shadow: -2px 8px 4px rgb(148, 103, 77);
+}
+body main .text .grlishop {
+  margin: 5% 5% 5% 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+body main .text .grlishop span {
+  font-size: 25px;
+  font-family: "Buffalo";
+  letter-spacing: 2px;
+  color: #e07837;
+  text-shadow: 2px 3px 2px #29221C;
+}
+body main .text .grlishop h1 {
+  color: #e07837;
+  font-family: "Western";
+  font-size: 45px;
+  padding-top: 5.5%;
+  margin-top: 2%;
+}
+body main .text .grlishop p {
+  margin-top: 2%;
+  color: #f2f2f2;
+  font-family: "Helvetica";
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 2%;
+  letter-spacing: 1.5px;
+}
+body main .text .grlishop img {
+  margin-top: -2%;
+  width: 100%;
+}
+body main .text .competition {
+  margin: 5% 10% 5% 0;
+  width: 100%;
+  text-align: center;
+}
+body main .text .competition h1 {
+  color: #e07837;
+  font-family: "Western";
+  font-size: 45px;
+  padding-top: 5.5%;
+  margin-top: 2%;
+}
+body main .text .competition p {
+  margin-top: 2%;
+  color: #f2f2f2;
+  font-family: "Helvetica";
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 2%;
+}
+body main .scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 0.5%;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+  padding-top: 0%;
+  margin-top: -3%;
+}
+body main .scroll-container::-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #29221C;
+}
+body main .scroll-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+body main .scroll-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #e07837;
+  border: 2px solid #000;
+}
+body main .gridscroll {
+  display: inline-block;
+}
+body main .gridscroll img {
+  margin: 0 0.5%;
+  width: 15%;
+  overflow: auto;
+}
+body .linebottom {
+  z-index: 3;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  margin-top: -0.5%;
+  box-shadow: 0px 2px 6px #ceb38d;
+  width: 100%;
+}
+body footer {
+  font-family: "Helvetica";
+  display: flex;
+  justify-content: center;
+  background-color: #29221C;
+  color: white;
+  padding: 3% 5%;
+}
+body footer .col-1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body footer .col-1 div img {
+  width: 8%;
+  margin-right: 5%;
+}
+body footer .col-1 p {
+  margin-top: 3%;
+}
+body footer .col-2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body footer .col-3 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+body footer .col-3 h3 {
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+}
+body footer .col-3 .name {
+  margin: 7% 0;
+  border-radius: 25px;
+  padding: 3%;
+  width: 120%;
+}
+body footer .col-3 .mail {
+  margin: 0;
+  border-radius: 25px;
+  padding: 3%;
+  width: 120%;
+}
+body footer .col-3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer .col-3 .container input[type=submit i] {
+  width: 41%;
+  height: 44px;
+  background-image: url(../IMG/submit.svg);
+  border-radius: 35px;
+  border-color: transparent;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position-y: -2.5px;
+  background-position-x: -1px;
+  margin: 0;
+  color: #e07837;
+  font-family: "Buffalo";
+  font-size: 25px;
+  margin-top: 7%;
+  padding-bottom: 0%;
+}
+body .end {
+  display: flex;
+  justify-content: center;
+  background-color: #29221C;
+  color: #e07837;
+  padding: 1%;
+  margin-top: -3%;
+}
+@media screen and (max-width: 600px) {
+  body #logoimg {
+    height: 50px;
+    width: 50px;
+  }
+  body nav ul .navbarimg {
+    height: 40px;
+    display: none;
+  }
+  body nav ul li {
+    width: 80px;
+    height: 28px;
+  }
+  body nav ul li a {
+    font-size: 28px;
+  }
+  body main {
+    margin-top: -15%;
+  }
+  body main .text {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .text .grlishop {
+    margin: 0;
+    margin-top: 2%;
+  }
+  body main .text .grlishop p {
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  body main .text .grlishop div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  body main .text .grlishop img {
+    width: 40%;
+  }
+  body main .text .competition {
+    margin: 0;
+  }
+  body main .text .competition p {
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  body main .scroll-container {
+    margin-top: 1%;
+    display: block;
+  }
+  body main .gridscroll img {
+    width: 250px;
+    height: 250px;
+  }
+  body .linebottom {
+    height: 5px;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  body footer .col-1 {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  body footer .col-1 div {
+    justify-content: center;
+  }
+  body footer .col-1 div img {
+    width: 20%;
+  }
+  body footer .col-1 div p {
+    display: none;
+  }
+  body footer .col-1 .phone {
+    display: flex;
+    justify-content: end;
+  }
+  body footer .col-1 .location {
+    display: flex;
+    justify-content: start;
+  }
+  body footer .col-2 {
+    display: none;
+  }
+  body footer .col-3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  body footer .col-3 .container p {
+    display: none;
+  }
+  body footer .col-3 .container .name {
+    width: 150%;
+    margin: 2% 0;
+    padding: 1%;
+    height: 30px;
+  }
+  body footer .col-3 .container .mail {
+    width: 150%;
+    padding: 1%;
+    height: 30px;
+  }
+  body footer .col-3 .container input[type=submit i] {
+    width: auto;
+    height: 24px;
+    font-size: 15px;
+  }
+  body .end {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logoimg {
+    height: 50px;
+    width: 50px;
+  }
+  body nav ul .navbarimg {
+    height: 40px;
+  }
+  body nav ul li {
+    width: 20%;
+    height: 28px;
+  }
+  body nav ul li a {
+    font-size: 28px;
+  }
+  body nav ul .hide {
+    width: 40%;
+    margin-left: -24%;
+  }
+  body nav ul .hide li a {
+    font-size: 17px;
+  }
+  body main {
+    margin-top: -15%;
+  }
+  body main .text {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .text .grlishop {
+    margin: 0;
+    margin-top: 2%;
+  }
+  body main .text .grlishop p {
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  body main .text .grlishop div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  body main .text .grlishop img {
+    width: 40%;
+  }
+  body main .text .competition {
+    margin: 0;
+  }
+  body main .text .competition p {
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  body main .scroll-container {
+    margin-top: 1%;
+    display: block;
+  }
+  body main .gridscroll img {
+    width: 250px;
+    height: 250px;
+  }
+  body .linebottom {
+    height: 5px;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  body footer .col-1 {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  body footer .col-1 div {
+    justify-content: center;
+  }
+  body footer .col-1 div img {
+    width: 20%;
+  }
+  body footer .col-1 div p {
+    display: none;
+  }
+  body footer .col-1 .phone {
+    display: flex;
+    justify-content: end;
+  }
+  body footer .col-1 .location {
+    display: flex;
+    justify-content: start;
+  }
+  body footer .col-2 {
+    display: none;
+  }
+  body footer .col-3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  body footer .col-3 .container p {
+    display: none;
+  }
+  body footer .col-3 .container .name {
+    width: 150%;
+    margin: 2% 0;
+    padding: 1%;
+    height: 30px;
+  }
+  body footer .col-3 .container .mail {
+    width: 150%;
+    padding: 1%;
+    height: 30px;
+  }
+  body footer .col-3 .container input[type=submit i] {
+    width: auto;
+    height: 24px;
+    font-size: 15px;
+  }
+  body .end {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+body nav ul .navbarimg {
+  height: 40px;
+  display: flex;
+}/*# sourceMappingURL=aboutus.css.map */
