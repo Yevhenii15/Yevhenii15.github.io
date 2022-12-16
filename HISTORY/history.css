@@ -193,6 +193,7 @@ body main .container-02 {
   padding-top: 5%;
 }
 body main .container-02 .textbox-02 {
+  width: 50%;
   height: auto;
   background-color: #29221C;
   color: #f2f2f2;
@@ -214,14 +215,14 @@ body main .container-02 .textbox-02 h1 {
 }
 body main .container-02 .textbox-02 p {
   font-family: "Helvetica";
-  font-weight: lighter;
   text-align: start;
+  font-weight: lighter;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 2%;
   letter-spacing: 1.5px;
   font-size: 19px;
-  line-height: 25px;
+  line-height: 26px;
 }
 body main .container-02 .textbox-02 p span {
   font-family: "Western";
@@ -476,7 +477,7 @@ body .end {
     font-size: 17px;
   }
   body main {
-    margin-top: -20%;
+    margin-top: -15%;
   }
   body main .container-01 {
     display: flex;
@@ -485,9 +486,10 @@ body .end {
   body main .container-01 .textbox-01 {
     width: 80%;
     height: 100%;
+    margin-bottom: 3%;
   }
   body main .container-01 .textbox-01 h1 {
-    font-size: 35px;
+    font-size: 34px;
   }
   body main .container-01 .textbox-01 p {
     font-size: 15px;
@@ -499,6 +501,15 @@ body .end {
     display: none;
   }
   body main .container-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .container-02 .textbox-02 {
+    width: 80%;
+  }
+  body main .container-02 .imgbox-02 {
     display: none;
   }
   body main .container-03 {
@@ -541,16 +552,16 @@ body .end {
   body main .container-04 .textbox-07 p {
     text-align: start;
   }
-  body .linebottom {
+  body main .linebottom {
     height: 5px;
   }
-  body footer {
-    display: flex;
+  body main footer {
+    display: fle;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
   }
-  body footer .col-1 {
+  body main footer .col-1 {
     width: 100%;
     font-size: 13px;
     display: flex;
@@ -558,50 +569,50 @@ body .end {
     justify-content: center;
     margin-bottom: 2%;
   }
-  body footer .col-1 div {
+  body main footer .col-1 div {
     justify-content: center;
   }
-  body footer .col-1 div img {
+  body main footer .col-1 div img {
     width: 20%;
   }
-  body footer .col-1 div p {
+  body main footer .col-1 div p {
     display: none;
   }
-  body footer .col-1 .phone {
+  body main footer .col-1 .phone {
     display: flex;
     justify-content: end;
   }
-  body footer .col-1 .location {
+  body main footer .col-1 .location {
     display: flex;
     justify-content: start;
   }
-  body footer .col-2 {
+  body main footer .col-2 {
     display: none;
   }
-  body footer .col-3 {
+  body main footer .col-3 {
     width: 100%;
     font-size: 12px;
   }
-  body footer .col-3 .container p {
+  body main footer .col-3 .container p {
     display: none;
   }
-  body footer .col-3 .container .name {
+  body main footer .col-3 .container .name {
     width: 100%;
     margin: 2% 0;
     padding: 1%;
     text-align: center;
   }
-  body footer .col-3 .container .mail {
+  body main footer .col-3 .container .mail {
     text-align: center;
     width: 100%;
     padding: 1%;
   }
-  body footer .col-3 .container input[type=submit i] {
+  body main footer .col-3 .container input[type=submit i] {
     width: auto;
     height: 24px;
     font-size: 15px;
   }
-  body .end {
+  body main .end {
     padding: 1% 5%;
     display: flex;
     justify-content: center;

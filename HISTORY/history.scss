@@ -207,17 +207,15 @@ body{
         }
         }   
         .container-02 {
-            display: block;
+            display: flex;
             justify-content: center;
-            align-items: center;
-            padding-top: 10%;
-            margin-top: -5%;
+            padding-top: 5%;
             .textbox-02{
-                width: 100%;
+                width: 50%;
                 height: auto;
                 background-color: $shadow;
                 color: $text-color;
-                margin-right: 1%;
+                margin-left: 1%;
                 text-align: center;
                 position: relative;
                 margin-top: 0;
@@ -256,13 +254,13 @@ body{
                 margin-top: 0;
                 
             }
-            } 
+        } 
         .container-03 {
         display: flex;
         justify-content: center;
         padding-top: 5%;
         .textbox-03{
-            width: 100%;
+            width: 50%;
             height: auto;
             background-color: $shadow;
             color: $text-color;
@@ -503,9 +501,7 @@ body{
             padding: 1%;
             margin-top: -3%;
         }
-       
-    }
-     @media screen and (max-width: 600px){
+       @media screen and (max-width: 600px){
             nav{
                 ul{
                     .navbarimg{
@@ -531,15 +527,17 @@ body{
                 }
             }  
             main{
-                margin-top: -20%;
-                .container-01{
+                margin-top: -15%;
+                .container-01  {
                     display: flex;
                     flex-direction: column;
+                  
                     .textbox-01{
                         width: 80%;
                         height: 100%;
+                        margin-bottom: 3%;
                         h1{
-                            font-size: 35px;
+                            font-size: 34px;
                         }
                         p{
                             font-size: 15px;
@@ -552,8 +550,18 @@ body{
                 .problem{
                     display: none;
                 }
-                .container-02{
+                .container-02  {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .textbox-02{
+                        width: 80%;
+                    }
+                    .imgbox-02{
                     display: none;
+                    
+                    }
                 }
                 .container-03{
                     display: none;
@@ -596,12 +604,12 @@ body{
                         }
                     }
                 }
-            }
+                
         .linebottom{
             height: 5px;
         }
         footer{
-            display: flex;
+            display: fle;
             justify-content: space-between;
             align-items: flex-start;
             flex-direction: column;
@@ -674,3 +682,5 @@ body{
             font-size: 12px;
         }
         }
+    }
+}
