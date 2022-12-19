@@ -15,6 +15,12 @@
    
     width: 100%;
     padding-bottom: 0.5%;
+    img{
+        height:100px; 
+        width: 150px; 
+        margin-top: 0.5%; 
+        margin-bottom: 0.5%;
+    }
 }
 .linetop{
     z-index: 3;
@@ -332,6 +338,10 @@ footer{
     margin-top: -3%;
 }
 @media screen and (max-width: 600px){
+    #logo img{
+        height: 60px;
+        width: 90px;
+    }
     nav{
         ul{
             .navbarimg{
@@ -359,11 +369,12 @@ footer{
     main{
        video{
            margin-top: -15%;
-           height: 300px;
         }
-      .belt{
+       .belt{
           height: 15px;
-          margin-top: -10%;
+          margin-top: -4%;
+          position: absolute;
+          z-index: 0;
       }
       .buttons{
         .button{

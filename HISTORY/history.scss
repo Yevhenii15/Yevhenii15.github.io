@@ -10,39 +10,33 @@ body{
     position: relative;
     #logo{
         text-align: center;
-        background-color: $shadow;
+        background-image: url(../IMG/Background.png);
+        background-repeat: repeat;
+        background-blend-mode: darken;
+        background-color: rgba(32, 23, 9, 0.4);
+        background-size: cover;
+        background-position-y: 55%;
         width: 100%;
         padding-bottom: 0.5%;
-
+        img{
+            height:100px; 
+            width: 150px; 
+            margin-top: 0.5%; 
+            margin-bottom: 0.5%;
+        }
     }
     .linetop{
-        z-index: 2;
+        z-index: 3;
         margin: 0;
         position: absolute;
         padding: 0;
         margin-top: -0.5%;
-        box-shadow: 0px -3px  5px $border;
+        box-shadow: 0px 5px  5px $border;
         width: 100%;
-
     }
         
-
-    .navbarimg{
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        margin-top: -0.5%;
-        pointer-events: none;
-    }
         
-        .navbarimg{
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        margin-top: -0.5%;
-
-        }
-
+      
     nav{
 
         position: relative;
@@ -51,7 +45,14 @@ body{
         margin-left: 0%;
         width: 100%;
         z-index: 2;
-
+        .navbarimg{
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin-top: -0.5%;
+            pointer-events: none;
+            height: 80px;
+        }
         ul{
         display: flex;
         justify-content: center;
@@ -502,6 +503,10 @@ body{
             margin-top: -3%;
         }
        @media screen and (max-width: 600px){
+        #logo img{
+        height: 60px;
+        width: 90px;
+    }
             nav{
                 ul{
                     .navbarimg{
@@ -527,7 +532,7 @@ body{
                 }
             }  
             main{
-                margin-top: -15%;
+                margin-top: -20%;
                 .container-01  {
                     display: flex;
                     flex-direction: column;
@@ -604,83 +609,82 @@ body{
                         }
                     }
                 }
-                
-        .linebottom{
-            height: 5px;
-        }
-        footer{
-            display: fle;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-direction: column;
-            
-            .col-1{
-                width: 100%;
-                font-size: 13px;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-bottom: 2%;
-                div{
-                    justify-content: center;
-                    img{
-                        width: 20%;
-                    }
-                    p{
-                        display: none;
-                    }
-                }
-                .phone{
-                    display: flex;
-                    justify-content: end;
-                }
-                .location{
-                    display: flex;
-                    justify-content: start;
-                }
-            }
-            .col-2{
-                display: none;
-            }
-            .col-3{
-                width: 100%;
-                font-size: 12px;
-                .container{
-                    p{
-                        display: none;
-                    }
-                }
-                .container{
-                    .name{
-                        width: 100%;
-                        margin: 2% 0;
-                        padding: 1%;
-                        text-align: center;
+    }
+    .linebottom{
+        height: 5px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
         
-                        
-                    }
-                    .mail{
-                        text-align: center;
-                        width: 100%;
-                        padding: 1%;
-                        
-                    }
+        .col-1{
+            width: 100%;
+            font-size: 13px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 2%;
+            div{
+                justify-content: center;
+                img{
+                    width: 20%;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .phone{
+                display: flex;
+                justify-content: end;
+            }
+            .location{
+                display: flex;
+                justify-content: start;
+            }
+        }
+        .col-2{
+            display: none;
+        }
+        .col-3{
+            width: 100%;
+            font-size: 12px;
+            .container{
+                p{
+                    display: none;
+                }
+            }
+            .container{
+                .name{
+                    width: 100%;
+                    margin: 2% 0;
+                    padding: 1%;
+                    text-align: center;
+    
                     
                 }
-                .container input[type=submit i]{
-                    width: auto;
-                    height: 24px;
-                    font-size: 15px;
-                            
+                .mail{
+                    text-align: center;
+                    width: 100%;
+                    padding: 1%;
+                    
                 }
+                
+            }
+            .container input[type=submit i]{
+                width: auto;
+                height: 24px;
+                font-size: 15px;
+                        
             }
         }
-        .end{
-            padding: 1% 5%;
-            display: flex;
-            justify-content: center;
-            font-size: 12px;
-        }
-        }
     }
+    .end{
+        padding: 1% 5%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
 }

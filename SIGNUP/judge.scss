@@ -23,6 +23,12 @@ body{
         background-position-y: 55%;
         width: 100%;
         padding-bottom: 0.5%;
+        img{
+            height:100px; 
+            width: 150px; 
+            margin-top: 0.5%; 
+            margin-bottom: 0.5%;
+        }
     }
     .linetop{
         z-index: 3;
@@ -30,7 +36,7 @@ body{
         position: absolute;
         padding: 0;
         margin-top: -0.5%;
-        box-shadow: 0px 2px 6px $border;
+        box-shadow: 0px 5px  5px $border;
         width: 100%;
     }
 
@@ -507,11 +513,10 @@ body{
 
 @media screen and (max-width: 600px){
     body{
-    #logoimg{
-        height: 50px;
-        width: 50px;
-        
-    }
+        #logo img{
+            height: 60px;
+            width: 90px;
+        }
     .linetop{
         display: none;
     }

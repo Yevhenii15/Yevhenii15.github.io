@@ -25,6 +25,12 @@
   width: 100%;
   padding-bottom: 0.5%;
 }
+#logo img {
+  height: 100px;
+  width: 150px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
 
 .linetop {
   z-index: 3;
@@ -312,6 +318,10 @@ footer .col-3 .container input[type=submit i] {
 }
 
 @media screen and (max-width: 600px) {
+  #logo img {
+    height: 60px;
+    width: 90px;
+  }
   nav ul .navbarimg {
     height: 40px;
   }
@@ -331,11 +341,12 @@ footer .col-3 .container input[type=submit i] {
   }
   main video {
     margin-top: -15%;
-    height: 300px;
   }
   main .belt {
     height: 15px;
-    margin-top: -10%;
+    margin-top: -4%;
+    position: absolute;
+    z-index: 0;
   }
   main .buttons .button img {
     height: none;

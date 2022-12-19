@@ -20,31 +20,29 @@ body {
 }
 body #logo {
   text-align: center;
-  background-color: #29221C;
+  background-image: url(../IMG/Background.png);
+  background-repeat: repeat;
+  background-blend-mode: darken;
+  background-color: rgba(32, 23, 9, 0.4);
+  background-size: cover;
+  background-position-y: 55%;
   width: 100%;
   padding-bottom: 0.5%;
 }
+body #logo img {
+  height: 100px;
+  width: 150px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
 body .linetop {
-  z-index: 2;
+  z-index: 3;
   margin: 0;
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px -3px 5px #ceb38d;
+  box-shadow: 0px 5px 5px #ceb38d;
   width: 100%;
-}
-body .navbarimg {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  margin-top: -0.5%;
-  pointer-events: none;
-}
-body .navbarimg {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  margin-top: -0.5%;
 }
 body nav {
   position: relative;
@@ -53,6 +51,14 @@ body nav {
   margin-left: 0%;
   width: 100%;
   z-index: 2;
+}
+body nav .navbarimg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: -0.5%;
+  pointer-events: none;
+  height: 80px;
 }
 body nav ul {
   display: flex;
@@ -459,6 +465,10 @@ body .end {
   margin-top: -3%;
 }
 @media screen and (max-width: 600px) {
+  body #logo img {
+    height: 60px;
+    width: 90px;
+  }
   body nav ul .navbarimg {
     height: 40px;
   }
@@ -477,7 +487,7 @@ body .end {
     font-size: 17px;
   }
   body main {
-    margin-top: -15%;
+    margin-top: -20%;
   }
   body main .container-01 {
     display: flex;
@@ -552,16 +562,16 @@ body .end {
   body main .container-04 .textbox-07 p {
     text-align: start;
   }
-  body main .linebottom {
+  body .linebottom {
     height: 5px;
   }
-  body main footer {
-    display: fle;
+  body footer {
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
   }
-  body main footer .col-1 {
+  body footer .col-1 {
     width: 100%;
     font-size: 13px;
     display: flex;
@@ -569,50 +579,50 @@ body .end {
     justify-content: center;
     margin-bottom: 2%;
   }
-  body main footer .col-1 div {
+  body footer .col-1 div {
     justify-content: center;
   }
-  body main footer .col-1 div img {
+  body footer .col-1 div img {
     width: 20%;
   }
-  body main footer .col-1 div p {
+  body footer .col-1 div p {
     display: none;
   }
-  body main footer .col-1 .phone {
+  body footer .col-1 .phone {
     display: flex;
     justify-content: end;
   }
-  body main footer .col-1 .location {
+  body footer .col-1 .location {
     display: flex;
     justify-content: start;
   }
-  body main footer .col-2 {
+  body footer .col-2 {
     display: none;
   }
-  body main footer .col-3 {
+  body footer .col-3 {
     width: 100%;
     font-size: 12px;
   }
-  body main footer .col-3 .container p {
+  body footer .col-3 .container p {
     display: none;
   }
-  body main footer .col-3 .container .name {
+  body footer .col-3 .container .name {
     width: 100%;
     margin: 2% 0;
     padding: 1%;
     text-align: center;
   }
-  body main footer .col-3 .container .mail {
+  body footer .col-3 .container .mail {
     text-align: center;
     width: 100%;
     padding: 1%;
   }
-  body main footer .col-3 .container input[type=submit i] {
+  body footer .col-3 .container input[type=submit i] {
     width: auto;
     height: 24px;
     font-size: 15px;
   }
-  body main .end {
+  body .end {
     padding: 1% 5%;
     display: flex;
     justify-content: center;
