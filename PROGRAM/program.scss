@@ -204,6 +204,18 @@ main{
             }
         }
     }
+    .Where{
+        font-family: 'Western';
+        color: $title-color;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 1%;
+    }
+    .map{
+        width: 91%;
+        height: 400px;
+        margin: 1% 5% 0 4%;
+    }
 }
 footer{
     font-family: 'Helvetica';
@@ -278,6 +290,7 @@ footer{
             }
         }
     }
+    
 }
 .end{
     display: flex;
@@ -352,6 +365,10 @@ footer{
                     font-size: 20px;
                 }
             }
+        }
+        .Where{
+            font-size: 40px;
+            color: white;
         }
     }
 .linebottom{

@@ -202,6 +202,18 @@ main .program .col-2 .information {
 main .program .col-2 .information p {
   margin: 4% 0;
 }
+main .Where {
+  font-family: "Western";
+  color: #e07837;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 1%;
+}
+main .map {
+  width: 91%;
+  height: 400px;
+  margin: 1% 5% 0 4%;
+}
 
 footer {
   font-family: "Helvetica";
@@ -341,6 +353,10 @@ footer .col-3 .container input[type=submit i] {
   }
   body main .program .col-2 .information {
     font-size: 20px;
+  }
+  body main .Where {
+    font-size: 40px;
+    color: white;
   }
   body .linebottom {
     height: 5px;

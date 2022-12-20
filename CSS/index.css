@@ -192,6 +192,11 @@ main .buttons .button a {
 main .buttons .button .dop {
   font-size: 100px;
 }
+main .map {
+  width: 80%;
+  height: 400px;
+  margin: 7% 10% 0 10%;
+}
 main .scroll-container {
   overflow: auto;
   white-space: nowrap;
