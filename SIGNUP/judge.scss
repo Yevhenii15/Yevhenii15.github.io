@@ -507,10 +507,7 @@ body{
         padding: 1%;
         margin-top: -3%;
     }
-
-
 }
-
 @media screen and (max-width: 600px){
     body{
         #logo img{
@@ -702,14 +699,14 @@ body{
         justify-content: center;
         font-size: 12px;
     }}
-}
-body main .container-01 .wrapper .form-wrapper #checkbox .form-control + .form-control {
-    justify-content: flex-start;
-    width: 60%;
-    left: 14%;
-    
-}
-body main .container-01 .wrapper .form-wrapper #checkbox .form-control {
-    left: 14%;
-    margin: 1rem 0;
+    body main .container-01 .wrapper .form-wrapper #checkbox .form-control + .form-control {
+        justify-content: flex-start;
+        width: 60%;
+        left: 14%;
+        
+    }
+    body main .container-01 .wrapper .form-wrapper #checkbox .form-control {
+        left: 14%;
+        margin: 1rem 0;
+    }
 }

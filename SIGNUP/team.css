@@ -518,6 +518,11 @@ body .end {
   body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox label {
     font-size: 28px;
   }
+  body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox label p {
+    font-size: 23px;
+    font-family: "Western";
+    font-weight: normal;
+  }
   body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox {
     width: 90%;
     margin-left: 5%;
