@@ -564,22 +564,39 @@ nav{
                     margin-top:5% ;
                     font-size: 15px;
                     p{
-                        font-size: 20px;
+                        font-size: 18px;
+                        width: 90%;
+                        margin-left: 5%;
+                        .headline{
+                            font-size: 28px;
+                        }
                     }
                 }
                 .form-wrapper{
                     width: 100%;
                     .form{ 
                         .form-control{
-                            width: 90%;
                             margin-left: 10%;
+                            width: 84%;
                         }
                         .state{
                             width: 100%;
                             display: inline;
                             
                         }
+                        label{
+                            font-size: 28px;
+                            margin-left: 3%;
+                        }
                     }
+                    #checkbox label{
+                        font-size: 28px;
+                        
+                      }
+                      #checkbox{
+                        width: 90%;
+                        margin-left: 5%;
+                      }
                 }
             }
         }

@@ -581,77 +581,77 @@ main{
 .linebottom{
     height: 5px;
 }
-    footer{
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    .col-1{
+        width: 100%;
+        font-size: 13px;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
-        .col-1{
-            width: 100%;
-            font-size: 13px;
-            display: flex;
-            flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2%;
+        div{
             justify-content: center;
-            margin-bottom: 2%;
-            div{
-                justify-content: center;
-                img{
-                    width: 20%;
-                }
-                p{
-                    display: none;
-                }
+            img{
+                width: 20%;
             }
-            .phone{
-                display: flex;
-                justify-content: end;
-            }
-            .location{
-                display: flex;
-                justify-content: start;
+            p{
+                display: none;
             }
         }
-        .col-2{
-            display: none;
+        .phone{
+            display: flex;
+            justify-content: end;
         }
-        .col-3{
-            width: 100%;
-            font-size: 12px;
-            .container{
-                p{
-                    display: none;
-                }
-            }
-            .container{
-                .name{
-                    width: 150%;
-                    margin: 2% 0;
-                    padding: 1%;
-                    height: 30px;
-
-                }
-                .mail{
-                    width: 150%;
-                    padding: 1%;
-                    height: 30px;
-                }
-            }
-            .container input[type=submit i]{
-                width: auto;
-                height: 24px;
-                font-size: 15px;
-                
-            }
-
+        .location{
+            display: flex;
+            justify-content: start;
         }
     }
-    .end{
-        padding: 1% 5%;
-        display: flex;
-        justify-content: center;
+    .col-2{
+        display: none;
+    }
+    .col-3{
+        width: 100%;
         font-size: 12px;
+        .container{
+            p{
+                display: none;
+            }
+        }
+        .container{
+            .name{
+                width: 100%;
+                margin: 2% 0;
+                padding: 1%;
+                text-align: center;
+                height: 16px;
+            }
+            .mail{
+                text-align: center;
+                width: 100%;
+                padding: 1%;
+                height: 16px;
+            }
+            
+        }
+        .container input[type=submit i]{
+            height: 24px;
+            font-size: 15px;
+                    
+        }
     }
 }
+.end{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}}
 body nav ul .navbarimg {
     height: 40px;
     display: flex;

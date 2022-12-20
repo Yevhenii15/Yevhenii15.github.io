@@ -569,18 +569,19 @@ body .end {
     display: none;
   }
   body footer .col-3 .container .name {
-    width: 150%;
+    width: 100%;
     margin: 2% 0;
     padding: 1%;
-    height: 30px;
+    text-align: center;
+    height: 16px;
   }
   body footer .col-3 .container .mail {
-    width: 150%;
+    text-align: center;
+    width: 100%;
     padding: 1%;
-    height: 30px;
+    height: 16px;
   }
   body footer .col-3 .container input[type=submit i] {
-    width: auto;
     height: 24px;
     font-size: 15px;
   }
