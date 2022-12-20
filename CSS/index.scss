@@ -150,10 +150,11 @@ main{
     margin-top: -5%;
     padding: 0 0 0% 0;
     z-index: 20;
-
-    video{
-        margin-top: 0%;
-         
+    .videomain{
+        display: block;
+    }
+    .videomobile{
+        display: none;
     }
     .belt{
         width: 100%;
@@ -383,9 +384,16 @@ footer{
         }
     }
     main{
-       video{
-           margin-top: -15%;
+        .videomain{
+            display: none;
         }
+        .videomobile{
+            display: block;
+            video{
+                margin-top: -15%;
+             }
+        }
+       
        .belt{
           height: 15px;
           margin-top: -4%;

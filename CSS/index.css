@@ -147,8 +147,11 @@ main {
   padding: 0 0 0% 0;
   z-index: 20;
 }
-main video {
-  margin-top: 0%;
+main .videomain {
+  display: block;
+}
+main .videomobile {
+  display: none;
 }
 main .belt {
   width: 100%;
@@ -355,7 +358,13 @@ footer .col-3 .container input[type=submit i] {
   nav ul .hide li a {
     font-size: 17px;
   }
-  main video {
+  main .videomain {
+    display: none;
+  }
+  main .videomobile {
+    display: block;
+  }
+  main .videomobile video {
     margin-top: -15%;
   }
   main .belt {
