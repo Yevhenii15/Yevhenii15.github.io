@@ -207,11 +207,22 @@ main{
            
         }
     }
-    .map{
+    .text{
         width: 80%;
-        height: 400px;
-        margin: 7% 10% 0 10%;
+        background-color: #0000005f;
+        margin: 7% 7% 0 7%;
+        padding: 3% 3% 3% 3%;
+    .title{
+        font-size: 60px;
+        font-family: 'Western';
+        color: $title-color;
     }
+    .textmain{
+        color: white;
+        font-family: 'Helvetica';
+        font-size: 20px;
+    }
+}
     .scroll-container{
         overflow:auto;
         white-space: nowrap;
@@ -219,7 +230,7 @@ main{
         background: transparent;
         height: 100%;
         border-radius:15px;
-        padding-top: 10%;
+        padding-top: 3%;
     }
     .scroll-container::-webkit-scrollbar-track {
         border: 1px solid #000;
@@ -395,6 +406,17 @@ footer{
             }
        }
     }
+    .text{
+        width: 80%;
+        margin: 7% 7% 0 7%;
+        padding: 3% 3% 3% 3%;
+    .title{
+        font-size: 35px;
+    }
+    .textmain{
+        font-size: 17px;
+    }
+}
     .gridscroll img{
         height: 30px;
     }

@@ -192,10 +192,21 @@ main .buttons .button a {
 main .buttons .button .dop {
   font-size: 100px;
 }
-main .map {
+main .text {
   width: 80%;
-  height: 400px;
-  margin: 7% 10% 0 10%;
+  background-color: rgba(0, 0, 0, 0.3725490196);
+  margin: 7% 7% 0 7%;
+  padding: 3% 3% 3% 3%;
+}
+main .text .title {
+  font-size: 60px;
+  font-family: "Western";
+  color: #e07837;
+}
+main .text .textmain {
+  color: white;
+  font-family: "Helvetica";
+  font-size: 20px;
 }
 main .scroll-container {
   overflow: auto;
@@ -204,7 +215,7 @@ main .scroll-container {
   background: transparent;
   height: 100%;
   border-radius: 15px;
-  padding-top: 10%;
+  padding-top: 3%;
 }
 main .scroll-container::-webkit-scrollbar-track {
   border: 1px solid #000;
@@ -361,6 +372,17 @@ footer .col-3 .container input[type=submit i] {
   }
   main .buttons .button .dop {
     font-size: 30px;
+  }
+  main .text {
+    width: 80%;
+    margin: 7% 7% 0 7%;
+    padding: 3% 3% 3% 3%;
+  }
+  main .text .title {
+    font-size: 35px;
+  }
+  main .text .textmain {
+    font-size: 17px;
   }
   main .gridscroll img {
     height: 30px;
