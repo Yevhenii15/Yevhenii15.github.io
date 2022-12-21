@@ -157,7 +157,9 @@ body{
         z-index: -1;
 
 
-
+       .mobile{
+        display: none;
+       }
         .container-01 {
         display: flex;
         justify-content: center;
@@ -533,81 +535,86 @@ body{
             }  
             main{
                 margin-top: -20%;
+                .mobile{
+                    display: block;
+                    padding-top: 7%;
+                    padding-bottom: 7%;
+                    margin: 0 3%;
+                    input {
+                        position: absolute;
+                        opacity: 0;
+                        z-index: -1;
+                      }
+                      .collapsible {
+                        &-accordion {
+                          margin: 10px;
+                          border-radius: 5px;
+                          overflow: hidden;
+                          box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+                        }
+                        &-item {
+                          &-label {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 3%;
+                            cursor: pointer;
+                            background: rgba(0, 0, 0, 0.499);
+                            color: $title-color;
+                            font-family: 'Western';
+                            font-size: 35px;
+                            
+                            &::after {
+                            content: "\2192";
+                            width: 1em;
+                            height: 1em;
+                            text-align: center;
+                            transition: all .35s;
+                          }
+                          }
+                          &-content {
+                            max-height: 0;
+                            padding: 0 1em;
+                            /* background: rgba(255, 255, 255, 0.568); */
+                            background: linear-gradient(180deg, rgba(214,201,168,0.8) 0%, rgba(249,234,195,0.8) 19%,
+                    rgba(247,235,200,0.8) 29%, rgba(214,201,168,0.8) 46%, rgba(175,161,130,0.8) 59%, 
+                    rgba(146,131,102,0.8) 72%, rgba(136,121,93,0.8) 82%, rgba(129,114,87,0.8) 100%);
+                            transition: all 0.35s;
+                            font-family: 'Helvetica';
+                            font-size: 17px;
+                          }
+                        }
+                      }
+                      
+                      input:checked {
+                        + .collapsible-item-label {
+                          &::after {
+                            transform: rotate(90deg);
+                          }
+                        }
+                        ~ .collapsible-item-content {
+                          max-height: 100vh;
+                          padding: 1em;
+                        }
+                      }
+                }
                 .container-01  {
-                    display: flex;
-                    flex-direction: column;
-                  
-                    .textbox-01{
-                        width: 80%;
-                        height: 100%;
-                        margin-bottom: 3%;
-                        h1{
-                            font-size: 34px;
-                        }
-                        p{
-                            font-size: 15px;
-                        }
-                    }
-                    .imgbox-01{
-                        width: 80%;
-                    }
+                    display: none;
                 }
                 .problem{
                     display: none;
                 }
                 .container-02  {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    .textbox-02{
-                        width: 80%;
-                    }
-                    .imgbox-02{
                     display: none;
-                    
-                    }
                 }
                 .container-03{
                     display: none;
                 }
                 h2{
-                    font-size: 40px;
+                    display: none;
                 }
                 .container-04{
-                    display: flex;
-                    flex-direction: column;
-                    align-content: center;
-                    h1{
-                        font-size: 35px;
-                    }
+                    display: none;
                     
-                    .textbox-04{
-                        width: 80%;
-                        margin-bottom: 7%;
-                        p{
-                            text-align: start;
-                        }
-                    }
-                    .textbox-05{
-                        width: 80%;
-                        margin-bottom: 6%;
-                        p{
-                            text-align: start;
-                        }
-                    }
-                    .textbox-06{
-                        width: 80%;
-                        p{
-                            text-align: start;
-                        }
-                    }
-                    .textbox-07{
-                        width: 80%;
-                        p{
-                            text-align: start;
-                        }
-                    }
                 }
     }
     .linebottom{
