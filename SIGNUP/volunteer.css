@@ -290,6 +290,8 @@ body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox .form-contr
   gap: 0.5em;
   left: 10%;
   margin-bottom: 5%;
+  flex-wrap: wrap;
+  align-items: center;
 }
 body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox .form-control + .form-control {
   margin: 0;
@@ -315,7 +317,7 @@ body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox input[type=
 }
 body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox input[type=checkbox]::before {
   content: "";
-  width: 0.65em;
+  width: 1.15em;
   height: 0.65em;
   -webkit-clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
           clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
@@ -598,7 +600,6 @@ body .end {
     font-size: 12px;
   }
 }
-
-body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox .form-control {
+body body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox .form-control {
   font-size: 16px;
 }/*# sourceMappingURL=volunteer.css.map */
