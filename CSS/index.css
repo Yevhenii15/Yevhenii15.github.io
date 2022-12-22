@@ -354,6 +354,7 @@ footer .col-3 .container input[type=submit i] {
   nav ul .hide {
     width: 40%;
     margin-left: -24%;
+    padding-top: 5%;
   }
   nav ul .hide li a {
     font-size: 17px;

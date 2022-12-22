@@ -144,11 +144,14 @@ main {
 main .poster {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
-main .poster img {
-  width: 87%;
-  margin: 5% 10% 10% 10%;
-  margin-bottom: 1%;
+main .poster .main {
+  width: 80%;
+  margin: 4% 0 1% 0;
+}
+main .poster .mobile {
+  display: none;
 }
 main .buttons {
   display: flex;
@@ -289,12 +292,13 @@ footer .col-3 .container input[type=submit i] {
   nav ul .hide {
     width: 40%;
     margin-left: -24%;
+    padding-top: 5%;
   }
   nav ul .hide li a {
     font-size: 17px;
   }
   main {
-    margin-top: -20%;
+    margin-top: -25%;
   }
   main .buttons .button a {
     font-size: 15px;
@@ -302,9 +306,13 @@ footer .col-3 .container input[type=submit i] {
   main .buttons .button1 .button img {
     height: 30px;
   }
-  main .viking {
-    width: 20%;
-    height: 173px;
+  main .poster .main {
+    display: none;
+  }
+  main .poster .mobile {
+    display: block;
+    width: 80%;
+    margin: 12% 0 3% 0;
   }
   .linebottom {
     height: 5px;
