@@ -48,7 +48,7 @@ body .linetop {
 body nav {
   position: relative;
   margin-top: -0.5%;
-  height: 100px;
+  height: 50px;
   margin-left: 0%;
   width: 100%;
   z-index: 2;
@@ -492,7 +492,7 @@ body .end {
     font-size: 17px;
   }
   body main {
-    margin-top: -20%;
+    margin-top: -10%;
   }
   body main .mobile {
     display: block;
