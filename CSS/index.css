@@ -176,11 +176,11 @@ main .buttons .button img {
   justify-content: center;
   position: absolute;
   width: 10%;
-  height: 15%;
+  height: 80px;
 }
 main .buttons .button .spesial {
   width: 22%;
-  height: 25%;
+  height: 120px;
 }
 main .buttons .button a {
   position: absolute;
@@ -355,11 +355,11 @@ footer .col-3 .container input[type=submit i] {
     margin-top: -2.5%;
   }
   main .buttons .button img {
-    height: 15%;
+    height: 65px;
     width: 10%;
   }
   main .buttons .button .spesial {
-    height: 20%;
+    height: 90px;
   }
   main .buttons .button a {
     font-size: 35px;
@@ -400,27 +400,26 @@ footer .col-3 .container input[type=submit i] {
     margin-top: -10%;
   }
   main .belt {
-    height: 10%;
+    height: 5%;
     margin-top: -4%;
     position: absolute;
     z-index: 0;
   }
   main .buttons {
-    height: 30px;
-    margin-top: -3%;
+    margin-top: -1%;
   }
   main .buttons .button img {
-    height: 10%;
+    height: 7%;
     width: 15%;
   }
   main .buttons .button .spesial {
-    height: 15%;
+    height: 10%;
   }
   main .buttons .button a {
-    font-size: 20px;
+    font-size: 30px;
   }
   main .buttons .button .dop {
-    font-size: 30px;
+    font-size: 40px;
   }
   main .text {
     width: 80%;

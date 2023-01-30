@@ -182,12 +182,12 @@ main{
                 justify-content: center;
                 position: absolute;
                 width: 10%; 
-                height: 15%;  
+                height: 80px;  
             }
 
             .spesial{
                 width: 22%;
-                height: 25%;
+                height: 120px;
             }
 
             a{
@@ -388,12 +388,12 @@ footer{
         margin-top: -2.5%;
     }
     main .buttons .button img{
-        height: 15%;
+        height: 65px;
         width: 10%;
       
     }
     main .buttons .button .spesial{
-        height: 20%;
+        height: 90px;
         
       
     }
@@ -447,28 +447,28 @@ footer{
         }
        
         .belt{
-          height: 10%;
+          height: 5%;
           margin-top: -4%;
           position: absolute;
           z-index: 0;
         }
         .buttons{
-            height: 30px;
-            margin-top: -3%;
+            
+            margin-top: -1%;
             .button{
                 img{
-                    height: 10%;
+                    height: 7%;
                     width: 15%;
                 }
                 .spesial{
-                    height: 15%;
+                    height: 10%;
                 }
                
             a{
-                font-size: 20px;
+                font-size: 30px;
                 }
             .dop{
-                font-size: 30px;
+                font-size: 40px;
                 
                 }
             }

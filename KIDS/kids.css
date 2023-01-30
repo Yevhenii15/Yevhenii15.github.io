@@ -138,7 +138,7 @@ nav ul .show:hover + .hide, nav ul .hide:hover {
 }
 
 main {
-  background-image: url(../IMG/rustybackground.png);
+  background-image: url(../IMG/Background.png);
   margin-top: -3%;
 }
 main .poster {
@@ -306,13 +306,16 @@ footer .col-3 .container input[type=submit i] {
   main .buttons .button1 .button img {
     height: 30px;
   }
+  main .poster {
+    margin-top: 10%;
+  }
   main .poster .main {
     display: none;
   }
   main .poster .mobile {
     display: block;
     width: 80%;
-    margin: 12% 0 3% 0;
+    margin: 10% 0 3% 0;
   }
   .linebottom {
     height: 5px;

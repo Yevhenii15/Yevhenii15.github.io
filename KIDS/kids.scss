@@ -141,7 +141,7 @@ ul{
 
 }
 main{
-    background-image: url(../IMG/rustybackground.png);
+    background-image: url(../IMG/Background.png);
     margin-top: -3%;  
    
     .poster {
@@ -325,13 +325,15 @@ footer{
            }
         }
         .poster{
+            margin-top: 10%;
             .main{
                 display: none;
             }  
             .mobile{
                 display: block;
                 width: 80%;
-                margin: 12% 0 3% 0;
+                margin: 10% 0 3% 0;
+                
             }
         }
     }
