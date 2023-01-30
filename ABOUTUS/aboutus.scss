@@ -366,9 +366,14 @@ body{
     }
     @media screen and (max-width: 1400px){
         #dropmenu {
-            width: 250px;
-            margin-left:-4%;
-            padding-top: 5%;
+            width: 20%;
+            margin-left:-5%;
+            padding-top: 6%;
+        }
+        #dropmenu2 {
+            width: 17%;
+            margin-left: 3%;
+            padding-top: 6%;
         }
     }
     @media screen and (max-width: 600px){
@@ -377,6 +382,14 @@ body{
             width: 50px;
         }
 
+        #dropmenu{
+            margin-left: -20%;
+            width: 30%;
+        }
+        #dropmenu2{
+            margin-left: 7%;
+            width: 30%;
+        }
         nav{
             ul{
                 .navbarimg{
