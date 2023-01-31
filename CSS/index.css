@@ -348,8 +348,13 @@ footer .col-3 .container input[type=submit i] {
   }
   #dropmenu {
     width: 20%;
+    margin-left: -7%;
+    padding-top: 4%;
+  }
+  #dropmenu2 {
+    width: 20%;
     margin-left: -4%;
-    padding-top: 3%;
+    padding-top: 4%;
   }
   main .buttons {
     margin-top: -2.5%;
@@ -388,6 +393,18 @@ footer .col-3 .container input[type=submit i] {
   }
   nav ul li a {
     font-size: 28px;
+  }
+  nav #dropmenu {
+    width: 150px;
+    margin-left: -15%;
+    padding: 2%;
+    padding-top: 5%;
+  }
+  nav #dropmenu2 {
+    width: 150px;
+    margin-left: 15%;
+    padding: 2%;
+    padding-top: 5%;
   }
   main .videomain {
     display: none;
